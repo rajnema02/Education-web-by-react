@@ -1,0 +1,60 @@
+.testimonials{
+    margin:70px auto;
+    padding:0 80px;
+    position:relative;
+}
+.next-btn, .back-btn{
+    background-color: rgb(24, 24, 209);
+    color:rgb(202, 11, 11);
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+    width:50px;
+    padding:15px;
+    cursor: pointer;
+}
+.back-btn{
+    left:0;
+    right:auto;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    display:flex;
+    width: 200%;
+    overflow-x:hidden;
+    transition:0.5s;
+    transform: translateX(-50%);
+}
+.slider ul li{
+    list-style: none;
+    margin: 23px;
+
+}
+.slide{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding:20px;
+    color: #676767;
+    line-height: 1.4;
+    border-radius: 12px;
+    /* background-color: black; */
+}
+.slide img{
+    height: 12vh;
+    width: 6vw;
+    border-radius: 50%;
+    border: 4px solid blue;
+    margin-right: 14px;
+}
+.user-info{
+    display:flex;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 15px;
+}
+.user-info h3{
+    color:rgb(45, 45, 122);
+}
